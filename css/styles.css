@@ -1,3 +1,6 @@
+/** FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Pacifico');
+
 li {
   list-style-type: none;
   color: #e40007;
@@ -7,10 +10,43 @@ li {
   .col-md-3 {
     background-color: blue;
   }
-}
+
 
 @media screen and (min-width: 500px) {
   .col-md-3 {
     background-color: purple;
   }
+
+#maintitle {
+  font-family: 'Pacifico', cursive;
+  text-decoration: underline;
+  color: #7700b3;
+  text-shadow: 8px 8px #000;
+  padding-bottom: 40px;
+  font-size: 100px;
+
+}
+
+#nametag {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+
+}
+
+span {
+  color: #7700b3;
+  font-size: 60px;
+  text-shadow: 4px 4px #000;
+}
+
+.magic {
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+
+  font-weight: 800;
+  background-color: #c2c2d6;
+  border: 5px solid #000;
+  border-radius: 30px;
+  padding: 200px;
 }
