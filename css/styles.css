@@ -6,17 +6,6 @@ li {
   color: #e40007;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
-
-
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
-
 #maintitle {
   font-family: 'Pacifico', cursive;
   text-decoration: underline;
@@ -49,4 +38,11 @@ span {
   border: 5px solid #000;
   border-radius: 30px;
   padding: 200px;
+}
+
+
+.col-md-8 {
+  height: 200px;
+  background-color: #0000ff;
+
 }
